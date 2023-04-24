@@ -447,7 +447,7 @@ stdDAC = std(DAC14(:,TwrBsMyt));
 stdROSCO = std(ROSCO14(:,TwrBsMyt));
 xlabel('Time [s]')
 ylabel('Bending moment [kN-m]')
-title('a1) Tower fore-aft')
+title('b1) Tower fore-aft')
 subtitle({['ROSCO: mean = ' num2str(meanROSCO) ', Std. Dev. = ' num2str(stdROSCO)], ...
     ['DAC: mean = ' num2str(meanDAC) ', Std. Dev. = ' num2str(stdDAC)]}, 'FontWeight', 'normal', 'Color', 'blue', 'HorizontalAlignment', 'center')
 grid on
